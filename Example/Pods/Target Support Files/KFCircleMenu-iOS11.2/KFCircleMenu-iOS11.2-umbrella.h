@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "KFCircleMenu.h"
 
 FOUNDATION_EXPORT double KFCircleMenuVersionNumber;
 FOUNDATION_EXPORT const unsigned char KFCircleMenuVersionString[];

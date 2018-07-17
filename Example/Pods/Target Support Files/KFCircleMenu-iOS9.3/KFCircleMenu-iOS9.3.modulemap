@@ -1,5 +1,5 @@
 framework module KFCircleMenu {
-  umbrella header "KFCircleMenu-umbrella.h"
+  umbrella header "KFCircleMenu-iOS9.3-umbrella.h"
 
   export *
   module * { export * }

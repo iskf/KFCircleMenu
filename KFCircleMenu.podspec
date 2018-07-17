@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/innowayskaifeng/KFCircleMenu'
+  s.homepage         = 'https://github.com/theKF/KFCircleMenu'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'innowayskaifeng' => '24272779@qq.com' }
-  s.source           = { :git => 'https://github.com/innowayskaifeng/KFCircleMenu.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/theKF/KFCircleMenu.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

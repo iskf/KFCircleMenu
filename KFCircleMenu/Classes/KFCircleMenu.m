@@ -584,9 +584,6 @@
         } else {
             view.center = CGPointMake(centerX, centerY);
         }
-        
-        NSLog(@"i:%ld,x:%.2f,y:%.2f",i,centerX,centerY);
-        
     }
 }
 

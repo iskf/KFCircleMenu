@@ -1,9 +1,9 @@
 {
   "name": "KFCircleMenu",
   "version": "0.1.0",
-  "summary": "A short description of KFCircleMenu.",
+  "summary": "一个弹出圆形菜单, 菜单可围绕滑动",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/innowayskaifeng/KFCircleMenu",
+  "homepage": "https://github.com/theKF/KFCircleMenu",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "innowayskaifeng": "24272779@qq.com"
   },
   "source": {
-    "git": "https://github.com/innowayskaifeng/KFCircleMenu.git",
+    "git": "https://github.com/theKF/KFCircleMenu.git",
     "tag": "0.1.0"
   },
   "platforms": {

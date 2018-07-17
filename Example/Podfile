@@ -4,3 +4,10 @@ target 'KFCircleMenu_Tests' do
   
   
 end
+
+target 'KFCircleMenuDemo' do
+    pod 'KFCircleMenu', :path => '../'
+    
+    
+end
+

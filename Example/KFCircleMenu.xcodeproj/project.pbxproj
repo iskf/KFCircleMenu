@@ -13,10 +13,18 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6ADFEC8020FDDD6F000E1066 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFEC7F20FDDD6F000E1066 /* AppDelegate.m */; };
+		6ADFEC8320FDDD6F000E1066 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFEC8220FDDD6F000E1066 /* ViewController.m */; };
+		6ADFEC8620FDDD6F000E1066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADFEC8420FDDD6F000E1066 /* Main.storyboard */; };
+		6ADFEC8820FDDD6F000E1066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADFEC8720FDDD6F000E1066 /* Assets.xcassets */; };
+		6ADFEC8B20FDDD6F000E1066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADFEC8920FDDD6F000E1066 /* LaunchScreen.storyboard */; };
+		6ADFEC8E20FDDD6F000E1066 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFEC8D20FDDD6F000E1066 /* main.m */; };
+		BF1E1EFDC8B9E339CFE63E57 /* Pods_KFCircleMenuDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781575845C967AB8D1D25371 /* Pods_KFCircleMenuDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2316A41424079DCF29918932 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2316A41424079DCF29918932 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		25ACFD7BEBF078442B6E3126 /* Pods-KFCircleMenuDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFCircleMenuDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFCircleMenuDemo/Pods-KFCircleMenuDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		275B46EE0457EF9027618DAE /* Pods_KFCircleMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFCircleMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -28,9 +36,21 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		61C25D76E2707E1D5215A82C /* Pods-KFCircleMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFCircleMenu_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFCircleMenu_Tests/Pods-KFCircleMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6ADFEC7C20FDDD6E000E1066 /* KFCircleMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFCircleMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADFEC7E20FDDD6F000E1066 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6ADFEC7F20FDDD6F000E1066 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6ADFEC8120FDDD6F000E1066 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6ADFEC8220FDDD6F000E1066 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6ADFEC8520FDDD6F000E1066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ADFEC8720FDDD6F000E1066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ADFEC8A20FDDD6F000E1066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ADFEC8C20FDDD6F000E1066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADFEC8D20FDDD6F000E1066 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		704A23678020742AD32F2F4E /* Pods-KFCircleMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFCircleMenu_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFCircleMenu_Tests/Pods-KFCircleMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		79B6A5EFFAF063ADAFA9AC07 /* KFCircleMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KFCircleMenu.podspec; path = ../KFCircleMenu.podspec; sourceTree = "<group>"; };
-		9A9385351DCD4EF568A3C353 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		781575845C967AB8D1D25371 /* Pods_KFCircleMenuDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFCircleMenuDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B6A5EFFAF063ADAFA9AC07 /* KFCircleMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KFCircleMenu.podspec; path = ../KFCircleMenu.podspec; sourceTree = "<group>"; };
+		9A9385351DCD4EF568A3C353 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F4F0774BF794D7F5A4BD1B30 /* Pods-KFCircleMenuDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFCircleMenuDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFCircleMenuDemo/Pods-KFCircleMenuDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +65,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6ADFEC7920FDDD6E000E1066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1E1EFDC8B9E339CFE63E57 /* Pods_KFCircleMenuDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -53,6 +81,7 @@
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
+				6ADFEC7D20FDDD6F000E1066 /* KFCircleMenuDemo */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				DEB2A860A301057791EEC9E7 /* Pods */,
@@ -63,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F5AE195388D20070C39A /* KFCircleMenu_Tests.xctest */,
+				6ADFEC7C20FDDD6E000E1066 /* KFCircleMenuDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +105,7 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				275B46EE0457EF9027618DAE /* Pods_KFCircleMenu_Tests.framework */,
+				781575845C967AB8D1D25371 /* Pods_KFCircleMenuDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,11 +139,29 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		6ADFEC7D20FDDD6F000E1066 /* KFCircleMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6ADFEC7E20FDDD6F000E1066 /* AppDelegate.h */,
+				6ADFEC7F20FDDD6F000E1066 /* AppDelegate.m */,
+				6ADFEC8120FDDD6F000E1066 /* ViewController.h */,
+				6ADFEC8220FDDD6F000E1066 /* ViewController.m */,
+				6ADFEC8420FDDD6F000E1066 /* Main.storyboard */,
+				6ADFEC8720FDDD6F000E1066 /* Assets.xcassets */,
+				6ADFEC8920FDDD6F000E1066 /* LaunchScreen.storyboard */,
+				6ADFEC8C20FDDD6F000E1066 /* Info.plist */,
+				6ADFEC8D20FDDD6F000E1066 /* main.m */,
+			);
+			path = KFCircleMenuDemo;
+			sourceTree = "<group>";
+		};
 		DEB2A860A301057791EEC9E7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				61C25D76E2707E1D5215A82C /* Pods-KFCircleMenu_Tests.debug.xcconfig */,
 				704A23678020742AD32F2F4E /* Pods-KFCircleMenu_Tests.release.xcconfig */,
+				25ACFD7BEBF078442B6E3126 /* Pods-KFCircleMenuDemo.debug.xcconfig */,
+				F4F0774BF794D7F5A4BD1B30 /* Pods-KFCircleMenuDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -140,6 +189,26 @@
 			productReference = 6003F5AE195388D20070C39A /* KFCircleMenu_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		6ADFEC7B20FDDD6E000E1066 /* KFCircleMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADFEC9120FDDD6F000E1066 /* Build configuration list for PBXNativeTarget "KFCircleMenuDemo" */;
+			buildPhases = (
+				6EF49927852E5A015A1A83C6 /* [CP] Check Pods Manifest.lock */,
+				6ADFEC7820FDDD6E000E1066 /* Sources */,
+				6ADFEC7920FDDD6E000E1066 /* Frameworks */,
+				6ADFEC7A20FDDD6E000E1066 /* Resources */,
+				F43CE9A1AB31425C6F41A4E2 /* [CP] Embed Pods Frameworks */,
+				669B19FC994507256C5F791C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KFCircleMenuDemo;
+			productName = KFCircleMenuDemo;
+			productReference = 6ADFEC7C20FDDD6E000E1066 /* KFCircleMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,6 +221,11 @@
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
+					};
+					6ADFEC7B20FDDD6E000E1066 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = HY82F2CRLF;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -169,6 +243,7 @@
 			projectRoot = "";
 			targets = (
 				6003F5AD195388D20070C39A /* KFCircleMenu_Tests */,
+				6ADFEC7B20FDDD6E000E1066 /* KFCircleMenuDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +254,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADFEC7A20FDDD6E000E1066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADFEC8B20FDDD6F000E1066 /* LaunchScreen.storyboard in Resources */,
+				6ADFEC8820FDDD6F000E1066 /* Assets.xcassets in Resources */,
+				6ADFEC8620FDDD6F000E1066 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +315,51 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KFCircleMenu_Tests/Pods-KFCircleMenu_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		669B19FC994507256C5F791C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KFCircleMenuDemo/Pods-KFCircleMenuDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EF49927852E5A015A1A83C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F43CE9A1AB31425C6F41A4E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KFCircleMenuDemo/Pods-KFCircleMenuDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -238,6 +368,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADFEC7820FDDD6E000E1066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADFEC8320FDDD6F000E1066 /* ViewController.m in Sources */,
+				6ADFEC8E20FDDD6F000E1066 /* main.m in Sources */,
+				6ADFEC8020FDDD6F000E1066 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +390,22 @@
 				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6ADFEC8420FDDD6F000E1066 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADFEC8520FDDD6F000E1066 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ADFEC8920FDDD6F000E1066 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADFEC8A20FDDD6F000E1066 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -370,6 +526,79 @@
 			};
 			name = Release;
 		};
+		6ADFEC8F20FDDD6F000E1066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25ACFD7BEBF078442B6E3126 /* Pods-KFCircleMenuDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HY82F2CRLF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = KFCircleMenuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innoways.KFCircleMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ADFEC9020FDDD6F000E1066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F0774BF794D7F5A4BD1B30 /* Pods-KFCircleMenuDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HY82F2CRLF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = KFCircleMenuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innoways.KFCircleMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -387,6 +616,15 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADFEC9120FDDD6F000E1066 /* Build configuration list for PBXNativeTarget "KFCircleMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADFEC8F20FDDD6F000E1066 /* Debug */,
+				6ADFEC9020FDDD6F000E1066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
