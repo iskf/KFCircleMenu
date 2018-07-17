@@ -1,0 +1,16 @@
+PODS:
+  - KFCircleMenu (0.1.0)
+
+DEPENDENCIES:
+  - KFCircleMenu (from `../`)
+
+EXTERNAL SOURCES:
+  KFCircleMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KFCircleMenu: 6ee8d4cbef0fbe9b936ba9c037f4a0930a2448bd
+
+PODFILE CHECKSUM: a44d279665c08e0ee84eb4490769eec66674711a
+
+COCOAPODS: 1.2.0

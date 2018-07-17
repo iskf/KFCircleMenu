@@ -1,0 +1,6 @@
+use_frameworks!
+target 'KFCircleMenu_Tests' do
+  pod 'KFCircleMenu', :path => '../'
+  
+  
+end
