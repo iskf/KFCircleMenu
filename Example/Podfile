@@ -1,13 +1,12 @@
 use_frameworks!
 target 'KFCircleMenu_Tests' do
-  pod 'KFCircleMenu', :path => '../'
+  pod 'KFCircleMenu'
   
   
 end
 
 target 'KFCircleMenuDemo' do
-    pod 'KFCircleMenu', :path => '../'
-    
+    pod 'KFCircleMenu'
     
 end
 

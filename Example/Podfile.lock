@@ -2,15 +2,11 @@ PODS:
   - KFCircleMenu (0.1.0)
 
 DEPENDENCIES:
-  - KFCircleMenu (from `../`)
-
-EXTERNAL SOURCES:
-  KFCircleMenu:
-    :path: "../"
+  - KFCircleMenu
 
 SPEC CHECKSUMS:
-  KFCircleMenu: ed52b959af89f9a7774a210c70a0ceb4176a49f7
+  KFCircleMenu: f52db6a7b530bd57ae412e11df9d172ee5ba7433
 
-PODFILE CHECKSUM: d5f4329405fe31c37f50a59b71960db13c296d7b
+PODFILE CHECKSUM: 9fc32ad5e92426089424782efd49ae91c3310000
 
 COCOAPODS: 1.2.0

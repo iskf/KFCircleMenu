@@ -71,9 +71,9 @@
                                             [UIImage imageNamed:@"icon_can"],
                                             [UIImage imageNamed:@"icon_pos"],
                                             [UIImage imageNamed:@"icon_img"],
-                                            [UIImage imageNamed:@"icon_pos"],
-                                            
-                                            ] innerCircleRadius:30];
+                                            [UIImage imageNamed:@"icon_pos"]
+                                            ]
+                        innerCircleRadius:30];
     [self.circleMenu2 setButtonClickBlock:^(NSInteger idx) {
         
         NSLog(@"button %@ clicked !",@(idx));
@@ -83,7 +83,6 @@
     [self.circleMenu2 setCenterIconType:KFIconTypeCustomImage];
     
     self.circleMenu2.tintColor = [UIColor whiteColor];
-    
     self.circleMenu2.mainColor = [UIColor colorWithRed:0.13 green:0.58 blue:0.95 alpha:1];
     
     //self.circleMenu2.offsetAfterOpened = CGSizeMake(-80, -80);
