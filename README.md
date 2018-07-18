@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/KFCircleMenu.svg?style=flat)](https://cocoapods.org/pods/KFCircleMenu)
 [![Platform](https://img.shields.io/cocoapods/p/KFCircleMenu.svg?style=flat)](https://cocoapods.org/pods/KFCircleMenu)
 
-
+![status](https://github.com/theKF/KFCircleMenu/blob/master/KFCircleMenu_gif.gif)
 
 ## Example
 
