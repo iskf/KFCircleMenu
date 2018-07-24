@@ -6,7 +6,10 @@
 //  Copyright © 2018年 innowayskaifeng. All rights reserved.
 //
 
-#import <KFCircleMenu/KFCircleMenu.h>
+
+
+#import "XLBubbleTransition.h"
+#import "KFTestViewController.h"
 
 #import "ViewController.h"
 
@@ -21,7 +24,6 @@
     /*
      menu 1
      */
-    
     self.circleMenu1.centerButtonSize = CGSizeMake(44, 44);
     self.circleMenu1.centerIconType = KFIconTypePlus;
     self.circleMenu1.tintColor = [UIColor whiteColor];
@@ -55,10 +57,10 @@
                                             ] innerCircleRadius:30];
     
     [self.circleMenu1 setButtonClickBlock:^(NSInteger idx) {
-        
         NSLog(@"button %@ clicked !",@(idx));
+        KFTestViewController *vc = [[KFTestViewController alloc]init];
+        [self presentViewController:vc animated:YES completion:nil];
     }];
-    
     
     /*
      menu 2
@@ -76,6 +78,8 @@
                         innerCircleRadius:30];
     [self.circleMenu2 setButtonClickBlock:^(NSInteger idx) {
         
+        KFTestViewController *vc = [[KFTestViewController alloc]init];
+        [self presentViewController:vc animated:YES completion:nil];
         NSLog(@"button %@ clicked !",@(idx));
     }];
     
@@ -85,15 +89,44 @@
     self.circleMenu2.tintColor = [UIColor whiteColor];
     self.circleMenu2.mainColor = [UIColor colorWithRed:0.13 green:0.58 blue:0.95 alpha:1];
     
-    //self.circleMenu2.offsetAfterOpened = CGSizeMake(-80, -80);
-    
+    //转场动画
+    self.xl_presentTranstion = [XLBubbleTransition transitionWithAnchorRect:CGRectMake(360, 10, 44, 44)];
+    self.xl_dismissTranstion = [XLBubbleTransition transitionWithAnchorRect:CGRectMake(360, 10, 44, 44)];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @end

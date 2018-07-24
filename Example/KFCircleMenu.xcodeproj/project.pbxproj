@@ -19,6 +19,11 @@
 		6ADFEC8820FDDD6F000E1066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADFEC8720FDDD6F000E1066 /* Assets.xcassets */; };
 		6ADFEC8B20FDDD6F000E1066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADFEC8920FDDD6F000E1066 /* LaunchScreen.storyboard */; };
 		6ADFEC8E20FDDD6F000E1066 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFEC8D20FDDD6F000E1066 /* main.m */; };
+		6AF7CF712106FFAD00289902 /* IMG_1224@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AF7CF702106FFAD00289902 /* IMG_1224@2x.png */; };
+		6AF7CF77210704BC00289902 /* UIViewController+XLBubbleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7CF74210704BC00289902 /* UIViewController+XLBubbleTransition.m */; };
+		6AF7CF78210704BC00289902 /* XLBubbleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7CF76210704BC00289902 /* XLBubbleTransition.m */; };
+		6AF7CF7C2107061400289902 /* KFTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7CF7A2107061400289902 /* KFTestViewController.m */; };
+		6AF7CF7F2107064300289902 /* IMG_1225@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AF7CF7E2107064300289902 /* IMG_1225@2x.png */; };
 		BF1E1EFDC8B9E339CFE63E57 /* Pods_KFCircleMenuDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781575845C967AB8D1D25371 /* Pods_KFCircleMenuDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +51,14 @@
 		6ADFEC8A20FDDD6F000E1066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6ADFEC8C20FDDD6F000E1066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ADFEC8D20FDDD6F000E1066 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AF7CF702106FFAD00289902 /* IMG_1224@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_1224@2x.png"; sourceTree = "<group>"; };
+		6AF7CF73210704BC00289902 /* UIViewController+XLBubbleTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XLBubbleTransition.h"; sourceTree = "<group>"; };
+		6AF7CF74210704BC00289902 /* UIViewController+XLBubbleTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XLBubbleTransition.m"; sourceTree = "<group>"; };
+		6AF7CF75210704BC00289902 /* XLBubbleTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBubbleTransition.h; sourceTree = "<group>"; };
+		6AF7CF76210704BC00289902 /* XLBubbleTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBubbleTransition.m; sourceTree = "<group>"; };
+		6AF7CF792107061400289902 /* KFTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFTestViewController.h; sourceTree = "<group>"; };
+		6AF7CF7A2107061400289902 /* KFTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFTestViewController.m; sourceTree = "<group>"; };
+		6AF7CF7E2107064300289902 /* IMG_1225@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_1225@2x.png"; sourceTree = "<group>"; };
 		704A23678020742AD32F2F4E /* Pods-KFCircleMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFCircleMenu_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFCircleMenu_Tests/Pods-KFCircleMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		781575845C967AB8D1D25371 /* Pods_KFCircleMenuDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFCircleMenuDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B6A5EFFAF063ADAFA9AC07 /* KFCircleMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KFCircleMenu.podspec; path = ../KFCircleMenu.podspec; sourceTree = "<group>"; };
@@ -142,10 +155,15 @@
 		6ADFEC7D20FDDD6F000E1066 /* KFCircleMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6AF7CF72210704BC00289902 /* XLBubbleTransition */,
+				6AF7CF702106FFAD00289902 /* IMG_1224@2x.png */,
+				6AF7CF7E2107064300289902 /* IMG_1225@2x.png */,
 				6ADFEC7E20FDDD6F000E1066 /* AppDelegate.h */,
 				6ADFEC7F20FDDD6F000E1066 /* AppDelegate.m */,
 				6ADFEC8120FDDD6F000E1066 /* ViewController.h */,
 				6ADFEC8220FDDD6F000E1066 /* ViewController.m */,
+				6AF7CF792107061400289902 /* KFTestViewController.h */,
+				6AF7CF7A2107061400289902 /* KFTestViewController.m */,
 				6ADFEC8420FDDD6F000E1066 /* Main.storyboard */,
 				6ADFEC8720FDDD6F000E1066 /* Assets.xcassets */,
 				6ADFEC8920FDDD6F000E1066 /* LaunchScreen.storyboard */,
@@ -153,6 +171,17 @@
 				6ADFEC8D20FDDD6F000E1066 /* main.m */,
 			);
 			path = KFCircleMenuDemo;
+			sourceTree = "<group>";
+		};
+		6AF7CF72210704BC00289902 /* XLBubbleTransition */ = {
+			isa = PBXGroup;
+			children = (
+				6AF7CF73210704BC00289902 /* UIViewController+XLBubbleTransition.h */,
+				6AF7CF74210704BC00289902 /* UIViewController+XLBubbleTransition.m */,
+				6AF7CF75210704BC00289902 /* XLBubbleTransition.h */,
+				6AF7CF76210704BC00289902 /* XLBubbleTransition.m */,
+			);
+			path = XLBubbleTransition;
 			sourceTree = "<group>";
 		};
 		DEB2A860A301057791EEC9E7 /* Pods */ = {
@@ -261,6 +290,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF7CF712106FFAD00289902 /* IMG_1224@2x.png in Resources */,
+				6AF7CF7F2107064300289902 /* IMG_1225@2x.png in Resources */,
 				6ADFEC8B20FDDD6F000E1066 /* LaunchScreen.storyboard in Resources */,
 				6ADFEC8820FDDD6F000E1066 /* Assets.xcassets in Resources */,
 				6ADFEC8620FDDD6F000E1066 /* Main.storyboard in Resources */,
@@ -376,8 +407,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ADFEC8320FDDD6F000E1066 /* ViewController.m in Sources */,
+				6AF7CF7C2107061400289902 /* KFTestViewController.m in Sources */,
 				6ADFEC8E20FDDD6F000E1066 /* main.m in Sources */,
 				6ADFEC8020FDDD6F000E1066 /* AppDelegate.m in Sources */,
+				6AF7CF77210704BC00289902 /* UIViewController+XLBubbleTransition.m in Sources */,
+				6AF7CF78210704BC00289902 /* XLBubbleTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

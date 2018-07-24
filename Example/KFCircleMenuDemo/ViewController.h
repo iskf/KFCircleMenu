@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <KFCircleMenu/KFCircleMenu.h>
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet KFCircleMenu *circleMenu1;
