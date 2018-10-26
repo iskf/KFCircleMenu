@@ -13,11 +13,11 @@ variables:
 
 steps:
 - task: Xcode@5
- inputs:
+  inputs:
     actions: 'archive' 
     configuration: '$(Configuration)' # Optional
     sdk: '$(SDK)' # Optional
-    xcWorkspacePath: '**/'$(scheme)'.xcworkspace' # Optional
+    xcWorkspacePath: '**/'$(scheme)'.xcworkspace'  # Optional
     scheme: '$(scheme)' # Optional
     xcodeVersion: 'default' # Optional. Options: 8, 9, 10, default, specifyPath
     xcodeDeveloperDir: /Applications/Xcode_10.0.app/Contents/Developer # Optional
