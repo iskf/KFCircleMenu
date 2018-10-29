@@ -6,12 +6,19 @@
 pool:
   vmImage: 'macOS 10.13'
 
+variables:
+  xcworkspacename: 'KFCircleMenu'
+  scheme: 'KFCircleMenuDemo'
+  sdk: 'iphoneos'
+  configuration: 'Release'
+
 steps:
 - task: Xcode@5
   inputs:
     actions: 'build'
-    scheme: 'KFCircleMenuDemo'
-    sdk: 'iphoneos'
-    configuration: 'Release'
-    xcWorkspacePath: '**/KFCircleMenu.xcworkspace'
+    scheme: '$(scheme)'
+    sdk: '$(sdk)'
+    configuration: '$(configuration)'
+    xcWorkspacePath: '**/'$(xcworkspacename)'.xcworkspace'
+    exportPath: '$(agent.buildDirectory)/output/$(sdk)/$(configuration)'
     xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
