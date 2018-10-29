@@ -20,5 +20,4 @@ steps:
     sdk: '$(sdk)'
     configuration: '$(configuration)'
     xcWorkspacePath: '**/'$(xcworkspacename)'.xcworkspace'
-    exportPath: '$(agent.buildDirectory)/output/$(sdk)/$(configuration)'
     xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
