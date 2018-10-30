@@ -15,6 +15,13 @@ variables:
 # Install Apple Certificate
 # Install an Apple certificate required to build on a macOS agent
 steps:
+
+# Download Secure File
+# Download a secure file to a temporary location on the build or release agent
+- task: DownloadSecureFile@1
+  inputs:
+    secureFile: 'Innoways Limited.p12'
+
 - task: InstallAppleCertificate@2
   inputs:
     certSecureFile: '$(Agent.TempDirectory)/Innoways Limited.p12'
