@@ -32,10 +32,10 @@ steps:
 
 # Install Apple Certificate
 # Install an Apple certificate required to build on a macOS agent
-- task: InstallAppleCertificate@2
-  inputs:
-    certSecureFile: 'Innoways Limited'
-    certPwd: '$(P12password)' # Optional
+#- task: InstallAppleCertificate@2
+ # inputs:
+  #  certSecureFile: 'Innoways Limited'
+   # certPwd: '$(P12password)' # Optional
     #keychain: 'default' # Options: default, temp, custom
     #keychainPassword: # Required when keychain == Custom || Keychain == Default
     #customKeychainPath: # Required when keychain == Custom
