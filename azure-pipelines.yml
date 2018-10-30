@@ -20,11 +20,11 @@ steps:
 # Download a secure file to a temporary location on the build or release agent
 - task: DownloadSecureFile@1
   inputs:
-    secureFile: '**/*.p12'
+    secureFile: Innoways Limited.p12
 
 - task: InstallAppleCertificate@2
   inputs:
-    certSecureFile: '$(Agent.TempDirectory)/Innoways Limited.p12'
+    certSecureFile: Innoways Limited.p12
     certPwd: $(p12Password)
     #keychain: 'temp' # Options: default, temp, custom
     #keychainPassword: # Required when keychain == Custom || Keychain == Default
