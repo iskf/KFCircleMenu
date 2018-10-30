@@ -16,7 +16,7 @@ variables:
 # Install an Apple certificate required to build on a macOS agent
 - task: InstallAppleCertificate@2
   inputs:
-    certSecureFile: 'Innoways Limited.p12'
+    certSecureFile: 'Innoways Limited'
     certPwd: $(p12Password)
     #keychain: 'temp' # Options: default, temp, custom
     #keychainPassword: # Required when keychain == Custom || Keychain == Default
