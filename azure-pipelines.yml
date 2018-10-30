@@ -20,7 +20,7 @@ steps:
 # Download a secure file to a temporary location on the build or release agent
 - task: DownloadSecureFile@1
   inputs:
-    secureFile: Innoways Limited.p12
+    secureFile: Innoways Limited
 
 - task: InstallAppleCertificate@2
   inputs:
