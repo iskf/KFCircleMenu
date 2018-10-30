@@ -28,10 +28,10 @@ steps:
 - task: InstallAppleCertificate@2
   inputs:
     certSecureFile: 'Innoways Limited'
-    certPwd: '$(P12password)' # Optional
-    keychain: 'default' # Options: default, temp, custom
+    #certPwd: '$(P12password)' # Optional
+    #keychain: 'default' # Options: default, temp, custom
     #keychainPassword: # Required when keychain == Custom || Keychain == Default
     #customKeychainPath: # Required when keychain == Custom
     #deleteCert: # Optional
     #deleteCustomKeychain: # Optional
-    signingIdentity: 'com.innoways.*' # Optional
+    #signingIdentity: 'com.innoways.*' # Optional
