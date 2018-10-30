@@ -15,8 +15,8 @@ variables:
 steps:
 - task: InstallAppleCertificate@2
   inputs:
-    certSecureFile: Innoways_Limited.p12
-    certPwd: $(p12Password)
+    certSecureFile: "Innoways_Limited.p12"
+    certPwd: "$(p12Password)"
     #keychain: 'temp' # Options: default, temp, custom
     #keychainPassword: # Required when keychain == Custom || Keychain == Default
     #customKeychainPath: # Required when keychain == Custom
