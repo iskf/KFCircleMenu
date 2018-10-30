@@ -22,33 +22,4 @@ steps:
     xcWorkspacePath: '**/$(xcworkspacename).xcworkspace'
     exportPath: '$(agent.buildDirectory)/output/$(sdk)/$(configuration)'
     xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
-
-# Download Secure File
-# Download a secure file to a temporary location on the build or release agent
-- task: DownloadSecureFile@1
-  inputs:
-    secureFile: 'Innoways Limited.p12'
-
-
-# Install Apple Certificate
-# Install an Apple certificate required to build on a macOS agent
-#- task: InstallAppleCertificate@2
- # inputs:
-  #  certSecureFile: 'Innoways Limited'
-   # certPwd: '$(P12password)' # Optional
-    #keychain: 'default' # Options: default, temp, custom
-    #keychainPassword: # Required when keychain == Custom || Keychain == Default
-    #customKeychainPath: # Required when keychain == Custom
-    #deleteCert: # Optional
-    #deleteCustomKeychain: # Optional
-    #signingIdentity: 'com.innoways.*' # Optional
-    
-    
-    # Install Apple Provisioning Profile
-# Install an Apple provisioning profile required to build on a macOS agent
-#- task: InstallAppleProvisioningProfile@1
- # inputs:
-    #provisioningProfileLocation: 'secureFiles' # Options: secureFiles, sourceRepository
-    #provProfileSecureFile: # Required when provisioningProfileLocation == SecureFiles
-    #provProfileSourceRepository: # Required when provisioningProfileLocation == SourceRepository
-    #removeProfile: # Optional
+    packageApp: false
