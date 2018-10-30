@@ -15,16 +15,9 @@ variables:
 # Install Apple Certificate
 # Install an Apple certificate required to build on a macOS agent
 steps:
-
-# Download Secure File
-# Download a secure file to a temporary location on the build or release agent
-- task: DownloadSecureFile@1
-  inputs:
-    secureFile: Innoways Limited
-
 - task: InstallAppleCertificate@2
   inputs:
-    certSecureFile: Innoways Limited.p12
+    certSecureFile: Innoways Limited
     certPwd: $(p12Password)
     #keychain: 'temp' # Options: default, temp, custom
     #keychainPassword: # Required when keychain == Custom || Keychain == Default
@@ -32,7 +25,9 @@ steps:
     #deleteCert: # Optional
     #deleteCustomKeychain: # Optional
     #signingIdentity: # Optional
-
+- task: InstallAppleProvisioningProfile@1
+  inputs:
+    provProfileSecureFile: Innoways_AdHoc_Distribution
 - task: Xcode@5
   inputs:
     actions: 'archive'
