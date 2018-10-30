@@ -15,7 +15,7 @@ variables:
 steps:
 - task: InstallAppleCertificate@2
   inputs:
-    certSecureFile: Innoways Limited
+    certSecureFile: Innoways_Limited.p12
     certPwd: $(p12Password)
     #keychain: 'temp' # Options: default, temp, custom
     #keychainPassword: # Required when keychain == Custom || Keychain == Default
@@ -25,7 +25,7 @@ steps:
     #signingIdentity: # Optional
 - task: InstallAppleProvisioningProfile@1
   inputs:
-    provProfileSecureFile: Innoways_AdHoc_Distribution
+    provProfileSecureFile: Innoways_AdHoc_Distribution.mobileprovision
 - task: Xcode@5
   inputs:
     actions: 'archive'
