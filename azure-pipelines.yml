@@ -14,6 +14,7 @@ variables:
 
 # Install Apple Certificate
 # Install an Apple certificate required to build on a macOS agent
+steps:
 - task: InstallAppleCertificate@2
   inputs:
     certSecureFile: 'Innoways Limited'
