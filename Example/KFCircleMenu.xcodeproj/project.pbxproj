@@ -41,6 +41,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		61C25D76E2707E1D5215A82C /* Pods-KFCircleMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFCircleMenu_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFCircleMenu_Tests/Pods-KFCircleMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A2B056E2189A532000A1831 /* KFCircleMenuDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KFCircleMenuDemo.entitlements; sourceTree = "<group>"; };
 		6ADFEC7C20FDDD6E000E1066 /* KFCircleMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFCircleMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADFEC7E20FDDD6F000E1066 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6ADFEC7F20FDDD6F000E1066 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -155,6 +156,7 @@
 		6ADFEC7D20FDDD6F000E1066 /* KFCircleMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6A2B056E2189A532000A1831 /* KFCircleMenuDemo.entitlements */,
 				6AF7CF72210704BC00289902 /* XLBubbleTransition */,
 				6AF7CF702106FFAD00289902 /* IMG_1224@2x.png */,
 				6AF7CF7E2107064300289902 /* IMG_1225@2x.png */,
@@ -255,6 +257,11 @@
 						CreatedOnToolsVersion = 9.2;
 						DevelopmentTeam = HY82F2CRLF;
 						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -590,9 +597,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.innoways.KFCircleMenuDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innoways.KFCircleMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Innoways AdHoc Distribution";
+				PROVISIONING_PROFILE_SPECIFIER = KFCircleMenu;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -628,9 +635,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.innoways.KFCircleMenuDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innoways.KFCircleMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Innoways AdHoc Distribution";
+				PROVISIONING_PROFILE_SPECIFIER = KFCircleMenu;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
