@@ -9,9 +9,32 @@ pool:
 steps:
 - task: Xcode@5
   inputs:
-    actions: 'build'
-    scheme: ''
-    sdk: 'iphoneos'
-    configuration: 'Release'
-    xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
-    xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
+    actions: 'build' 
+    #configuration: '$(Configuration)' # Optional
+    #sdk: '$(SDK)' # Optional
+    xcWorkspacePath: '**/*.xcworkspace' # Optional
+    scheme: 'KFCircleMenuDemo' # Optional
+    xcodeVersion: 'default' # Optional. Options: 8, 9, 10, default, specifyPath
+    #xcodeDeveloperDir: # Optional
+    packageApp: true
+    archivePath: # Optional
+    exportPath: 'output/$(SDK)/$(Configuration)' # Optional
+    exportOptions: 'auto' # Optional. Options: auto, plist, specify
+    exportMethod: 'development' # Required when exportOptions == Specify
+    exportTeamId: 'A83T9Y55LQ' # Optional
+    exportOptionsPlist: # Required when exportOptions == Plist
+    #exportArgs: # Optional
+    signingOption: 'auto' # Optional. Options: nosign, default, manual, auto
+    #signingIdentity: # Optional
+    #provisioningProfileUuid: # Optional
+    #provisioningProfileName: # Optional
+    teamId: 'A83T9Y55LQ' # Optional
+    destinationPlatformOption: 'iOS' # Optional. Options: default, iOS, tvOS, macOS, custom
+    #destinationPlatform: # Optional
+    destinationTypeOption: 'devices' # Optional. Options: simulators, devices
+    #destinationSimulators: 'iPhone 7' # Optional
+    destinationDevices: 'iPhone 7' # Optional
+    #args: # Optional
+    #workingDirectory: # Optional
+    #useXcpretty: # Optional
+    #publishJUnitResults: # Optional
