@@ -29,11 +29,11 @@ steps:
     #provisioningProfileUuid: # Optional
     #provisioningProfileName: # Optional
     teamId: 'A83T9Y55LQ' # Optional
-    destinationPlatformOption: 'iOS' # Optional. Options: default, iOS, tvOS, macOS, custom
+    destinationPlatformOption: 'default' # Optional. Options: default, iOS, tvOS, macOS, custom
     #destinationPlatform: # Optional
-    destinationTypeOption: 'devices' # Optional. Options: simulators, devices
-    #destinationSimulators: 'iPhone 7' # Optional
-    destinationDevices: 'iPhone 7' # Optional
+    destinationTypeOption: 'simulators' # Optional. Options: simulators, devices
+    destinationSimulators: 'iPhone 7' # Optional
+    #destinationDevices: 'iPhone 7' # Optional
     #args: # Optional
     #workingDirectory: # Optional
     #useXcpretty: # Optional
