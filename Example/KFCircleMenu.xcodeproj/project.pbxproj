@@ -13,6 +13,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6A2B0570218C3353000A1831 /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B056F218C3353000A1831 /* ExportOptions.plist */; };
+		6A2B0571218C3353000A1831 /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B056F218C3353000A1831 /* ExportOptions.plist */; };
 		6ADFEC8020FDDD6F000E1066 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFEC7F20FDDD6F000E1066 /* AppDelegate.m */; };
 		6ADFEC8320FDDD6F000E1066 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFEC8220FDDD6F000E1066 /* ViewController.m */; };
 		6ADFEC8620FDDD6F000E1066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADFEC8420FDDD6F000E1066 /* Main.storyboard */; };
@@ -42,6 +44,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		61C25D76E2707E1D5215A82C /* Pods-KFCircleMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFCircleMenu_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFCircleMenu_Tests/Pods-KFCircleMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A2B056E2189A532000A1831 /* KFCircleMenuDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KFCircleMenuDemo.entitlements; sourceTree = "<group>"; };
+		6A2B056F218C3353000A1831 /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
 		6ADFEC7C20FDDD6E000E1066 /* KFCircleMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFCircleMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADFEC7E20FDDD6F000E1066 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6ADFEC7F20FDDD6F000E1066 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -148,6 +151,7 @@
 			children = (
 				79B6A5EFFAF063ADAFA9AC07 /* KFCircleMenu.podspec */,
 				9A9385351DCD4EF568A3C353 /* README.md */,
+				6A2B056F218C3353000A1831 /* ExportOptions.plist */,
 				2316A41424079DCF29918932 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
@@ -256,7 +260,7 @@
 					6ADFEC7B20FDDD6E000E1066 = {
 						CreatedOnToolsVersion = 9.2;
 						DevelopmentTeam = HY82F2CRLF;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 0;
@@ -290,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				6A2B0570218C3353000A1831 /* ExportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +307,7 @@
 				6ADFEC8B20FDDD6F000E1066 /* LaunchScreen.storyboard in Resources */,
 				6ADFEC8820FDDD6F000E1066 /* Assets.xcassets in Resources */,
 				6ADFEC8620FDDD6F000E1066 /* Main.storyboard in Resources */,
+				6A2B0571218C3353000A1831 /* ExportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,8 +592,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = HY82F2CRLF;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -599,7 +605,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.innoways.KFCircleMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = KFCircleMenu;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -623,8 +629,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HY82F2CRLF;
@@ -637,7 +643,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.innoways.KFCircleMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = KFCircleMenu;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
